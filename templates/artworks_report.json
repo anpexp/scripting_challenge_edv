@@ -1,0 +1,37 @@
+[
+    {
+        "_score": 241.74466,
+        "title": "Water Lilies",
+        "date_display": "1906",
+        "artist_display": "Claude Monet (French, 1840–1926)",
+        "medium_display": "Oil on canvas"
+    },
+    {
+        "_score": 223.97722,
+        "title": "Arrival of the Normandy Train, Gare Saint-Lazare",
+        "date_display": "1877",
+        "artist_display": "Claude Monet (French, 1840–1926)",
+        "medium_display": "Oil on canvas"
+    },
+    {
+        "_score": 221.50812,
+        "title": "Stacks of Wheat (End of Summer)",
+        "date_display": "1890–91",
+        "artist_display": "Claude Monet (French, 1840–1926)",
+        "medium_display": "Oil on canvas"
+    },
+    {
+        "_score": 217.30052,
+        "title": "Cliff Walk at Pourville",
+        "date_display": "1882",
+        "artist_display": "Claude Monet (French, 1840–1926)",
+        "medium_display": "Oil on canvas"
+    },
+    {
+        "_score": 214.41202,
+        "title": "Water Lily Pond",
+        "date_display": "1900",
+        "artist_display": "Claude Monet (French, 1840–1926)",
+        "medium_display": "Oil on canvas"
+    }
+]

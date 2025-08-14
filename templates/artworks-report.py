@@ -27,7 +27,8 @@ def save_json(artworks, filename="artworks_report.json"):
 def save_pdf(artworks, fields, filename="artworks_report.pdf"):
     pdf = FPDF()
     pdf.add_page()
-    pdf.set_font("Arial", size=12)
+    pdf.add_font('DejaVu', '', '../fonts/DejaVuSans.ttf', uni=True)
+    pdf.set_font("DejaVu", size=12)
 
     pdf.set_title("Artworks Report - Art Institute of Chicago")
     pdf.cell(200, 10, txt="Reporte de Obras - Instituto de Arte de Chicago", ln=True, align="C")
@@ -39,6 +40,7 @@ def save_pdf(artworks, fields, filename="artworks_report.pdf"):
         pdf.set_font("Arial", size=10)
         for field in fields:
             value = artwork.get(field, "N/A")
+            value = value.replace('\u2013', '-')  # guion largo → guion simple
             pdf.multi_cell(0, 8, txt=f"{field}: {value}")
         pdf.ln(5)
 
